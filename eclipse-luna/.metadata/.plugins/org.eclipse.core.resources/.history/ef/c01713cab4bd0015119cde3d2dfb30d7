@@ -1,0 +1,6 @@
+package com.mj.example.whiteboard.registryplugin;
+
+public interface Plugin {
+    String getName();
+    void execute();
+}

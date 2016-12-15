@@ -1,0 +1,8 @@
+package com.mj.example.api;
+
+public interface Greeting {
+	
+	String sayHello(String name);
+	
+	String anwserTo(String name, String words);
+}

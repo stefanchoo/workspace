@@ -1,0 +1,42 @@
+package com.mj.example.command;
+
+import org.apache.felix.dm.annotation.api.Component;
+import org.apache.felix.dm.annotation.api.Property;
+import org.apache.felix.dm.annotation.api.ServiceDependency;
+import org.apache.felix.dm.annotation.api.Start;
+import org.apache.felix.service.command.CommandProcessor;
+import org.osgi.framework.BundleContext;
+
+import com.mj.example.api.Greeting;
+
+@Component(properties = {
+                         @Property(name = CommandProcessor.COMMAND_SCOPE, value = "example"),
+                         @Property(name = CommandProcessor.COMMAND_FUNCTION, value = {"greet", "answer"})
+                         }, 
+           provides = Object.class)
+public class Command {
+
+    @ServiceDependency
+    private Greeting greeting;
+
+    public String greet(String name) {
+        return greeting.sayHello(name);
+    }
+
+    public String answer(String name, String words) {
+        return greeting.anwserFrom(name, words);
+    }
+
+    @Start
+    public void start() throws Exception {
+         System.out.println("starting...");
+    }
+
+    @Stop
+    public void stop() throws Exception {
+         System.out.println("stopping...");
+        
+    }
+    
+   
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="com.mj.example.impl.ExampleComponent"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Path"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Produces"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.mj.example.whiteboard.registryplugin.Plugin"/>
+<fullyQualifiedTypeName name="com.mj.example.whiteboard.registryplugin.Registry"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ConcurrentHashMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="org.osgi.framework.ServiceReference"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="javax.annotation.PreDestroy"/>
+<fullyQualifiedTypeName name="org.apache.felix.dm.annotation.api.Property"/>
+<fullyQualifiedTypeName name="org.apache.felix.service.command.CommandProcessor"/>
+<fullyQualifiedTypeName name="com.mj.example.whiteboard.pluginregistry.Registry"/>
+<fullyQualifiedTypeName name="org.apache.felix.dm.annotation.api.ServiceDependency"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Optional"/>
+<fullyQualifiedTypeName name="com.mj.example.whiteboard.pluginregistry.Plugin"/>
+<fullyQualifiedTypeName name="org.osgi.framework.BundleActivator"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="com.mj.example.api.Greeting"/>
+<fullyQualifiedTypeName name="org.apache.felix.dm.annotation.api.Component"/>
+<fullyQualifiedTypeName name="org.apache.felix.dm.annotation.api.Start"/>
+<fullyQualifiedTypeName name="org.apache.felix.dm.annotation.api.Stop"/>
+</qualifiedTypeNameHistroy>

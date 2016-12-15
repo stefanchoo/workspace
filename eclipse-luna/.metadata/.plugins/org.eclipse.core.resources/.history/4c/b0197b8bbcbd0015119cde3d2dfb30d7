@@ -1,0 +1,7 @@
+package com.mj.example.whiteboard.helloplugin;
+
+import com.mj.example.whiteboard.pluginregistry.Plugin;
+
+public class HelloPlugin implements Plugin {
+
+}

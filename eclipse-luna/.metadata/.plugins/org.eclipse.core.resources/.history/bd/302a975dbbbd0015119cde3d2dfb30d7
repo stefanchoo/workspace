@@ -1,0 +1,33 @@
+package com.mj.example.whiteboard.pluginregistry.impl;
+
+import org.apache.felix.dm.annotation.api.Component;
+import org.apache.felix.dm.annotation.api.Property;
+import org.apache.felix.dm.annotation.api.ServiceDependency;
+import org.apache.felix.service.command.CommandProcessor;
+
+import com.mj.example.whiteboard.pluginregistry.Plugin;
+import com.mj.example.whiteboard.pluginregistry.Registry;
+
+@Component(properties = {@Property(name = CommandProcessor.COMMAND_SCOPE, value = "example"),
+        @Property(name = CommandProcessor.COMMAND_FUNCTION, value = {"man", "exec", "all"})}, provides = Object.class)
+public class Command {
+
+    @ServiceDependency
+    private volatile Registry registry;
+
+    public void man() {
+        
+        registry.listPlugins().stream()
+            .map(Plugin::getName)
+            .forEach(System.out::println);
+         
+    }
+
+    public void exec(String name) {
+
+    }
+
+    public void all() {
+
+    }
+}

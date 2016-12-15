@@ -1,0 +1,4 @@
+##
+    关闭一个Netty应用往往只需要简单地通过shutdownGracefully()方法来关闭你构建的所有的EventLoopGroup.
+    当EventLoopGroup被完全终止，并且对应的所有channel都已经被关闭时，Netty会返回一个Future对象来通知你
+##

@@ -1,0 +1,5 @@
+1453266559903	Delete resource 'cnf'
+1453266565135	Delete resource 'com.mj.mesc.gateway.api'
+1453266568519	Delete resource 'com.mj.mesc.gateway.core'
+1453266571652	Delete resource 'com.typesafe.akka.osgi.ds'
+1453266575484	Delete resource 'com.typesafe.config.osgi'

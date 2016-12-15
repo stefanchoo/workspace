@@ -1,0 +1,9 @@
+package com.mj.example.impl;
+
+import junit.framework.TestCase;
+
+public class ExampleComponentTest extends TestCase {
+
+    public void testSayHello() throws Exception {
+    }
+}

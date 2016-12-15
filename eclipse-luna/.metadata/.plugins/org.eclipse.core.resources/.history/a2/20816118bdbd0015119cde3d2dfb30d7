@@ -1,0 +1,8 @@
+package com.mj.example.whiteboard.weatherplugin;
+
+
+@Component
+public class ExampleComponent {
+
+
+}

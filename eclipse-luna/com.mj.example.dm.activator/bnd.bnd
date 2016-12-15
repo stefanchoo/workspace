@@ -1,0 +1,7 @@
+-buildpath:  \
+	osgi.core,\
+	osgi.cmpn,\
+	org.apache.servicemix.bundles.junit,\
+	org.apache.felix.dependencymanager;version=4.1
+-sub:  \
+	*.bnd

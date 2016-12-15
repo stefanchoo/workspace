@@ -1,0 +1,3 @@
+Private-Package:  \
+	com.mj.example.greet.impl
+Bundle-Version: 0.0.0.${tstamp}

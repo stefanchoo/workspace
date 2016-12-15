@@ -1,0 +1,22 @@
+package com.mj.example.command;
+
+import com.mj.example.api.Greeting;
+
+import org.apache.felix.dm.annotation.api.Component;
+import org.apache.felix.dm.annotation.api.Property;
+import org.apache.felix.dm.annotation.api.ServiceDependency;
+import org.apache.felix.service.command.CommandProcessor;
+
+@Component(properties = {
+		@Property(name = CommandProcessor.COMMAND_SCOPE, value = "example"),
+		@Property(name = CommandProcessor.COMMAND_FUNCTION, value = { "greet" }) 
+		}, provides = Object.class)
+
+public class Command {
+	@ServiceDependency
+	private Greeting greeting;
+
+	public String greet(String name) {
+		return greeting.sayHello(name);
+	}
+}

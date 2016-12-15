@@ -1,0 +1,5 @@
+package com.mj.example.greet.impl;
+
+public class GreetImpl {
+
+}

@@ -1,0 +1,10 @@
+-buildpath:  \
+	osgi.core,\
+	osgi.cmpn,\
+	org.apache.felix.dependencymanager.annotation,\
+	org.apache.felix.gogo.command
+Bundle-Version: 0.0.0.${tstamp}
+Private-Package:  \
+	com.mj.example.whiteboard.pluginregistry
+Service-Component:  \
+	*

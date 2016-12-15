@@ -1,0 +1,17 @@
+package com.mj.example.whiteboard.helloplugin;
+
+import com.mj.example.whiteboard.pluginregistry.Plugin;
+
+public class HelloPlugin implements Plugin {
+
+    @Override
+    public String getName() {
+        return "hello";
+    }
+
+    @Override
+    public void execute() {
+        System.out.println("Hello, from the Hello Plugin！");
+    }
+
+}

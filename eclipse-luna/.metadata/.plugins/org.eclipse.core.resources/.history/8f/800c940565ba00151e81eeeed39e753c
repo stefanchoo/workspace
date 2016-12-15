@@ -1,0 +1,8 @@
+package com.mj.tutorial.todo.rest;
+
+@Path("todo")
+public class TodoResource {
+	@Get
+	@Produces(MediaType.APPLICATION_JSON)
+	
+}

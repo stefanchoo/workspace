@@ -1,0 +1,5 @@
+package com.mj.example.dm.impl;
+
+public class Activator extends Dependenc{
+
+}

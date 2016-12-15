@@ -1,0 +1,5 @@
+package com.mj.example.whiteboard.registryplugin;
+
+public interface Registry {
+
+}

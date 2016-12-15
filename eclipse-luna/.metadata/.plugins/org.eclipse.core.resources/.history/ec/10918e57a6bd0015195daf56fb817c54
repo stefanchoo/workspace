@@ -1,0 +1,9 @@
+package com.mj.example.dm.tester;
+
+import com.mj.example.dm.Greeting;
+
+public class Tester {
+    
+    private volatile Greeting m_greeter;
+    private volatile Thread m_printer;
+}

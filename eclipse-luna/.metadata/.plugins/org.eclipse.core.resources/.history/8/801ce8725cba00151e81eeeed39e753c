@@ -1,0 +1,10 @@
+package com.mj.example.impl;
+
+import aQute.bnd.annotation.component.*;
+
+@Component
+public class ExampleComponent {
+
+	// TODO: class provided by template
+
+}

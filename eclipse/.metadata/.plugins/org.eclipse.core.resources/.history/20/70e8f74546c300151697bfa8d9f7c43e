@@ -1,0 +1,15 @@
+package com.mj.io.hack;
+/**
+ * 操作单个字符的character类使用小结
+ * @author stefan
+ *
+ */
+public class CharacterTest {
+	public static void main(String[] args) {
+		Character c = new Character('a');
+		System.out.println("This is a char: " + c.toString()
+				+ "and it's class: " + c.getClass());
+		
+		String str = Character.toString('b');
+	}
+}

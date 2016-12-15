@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/develop/Java/JMS/apache-activemq-5.13.2/lib/activemq-broker-5.13.2.jar!/" />
+          <root url="jar://D:/develop/Java/JMS/apache-activemq-5.13.2/lib/activemq-client-5.13.2.jar!/" />
+          <root url="jar://D:/develop/Java/JMS/apache-activemq-5.13.2/lib/activemq-console-5.13.2.jar!/" />
+          <root url="jar://D:/develop/Java/JMS/apache-activemq-5.13.2/lib/activemq-jaas-5.13.2.jar!/" />
+          <root url="jar://D:/develop/Java/JMS/apache-activemq-5.13.2/lib/activemq-kahadb-store-5.13.2.jar!/" />
+          <root url="jar://D:/develop/Java/JMS/apache-activemq-5.13.2/lib/activemq-openwire-legacy-5.13.2.jar!/" />
+          <root url="jar://D:/develop/Java/JMS/apache-activemq-5.13.2/lib/activemq-protobuf-1.1.jar!/" />
+          <root url="jar://D:/develop/Java/JMS/apache-activemq-5.13.2/lib/activemq-spring-5.13.2.jar!/" />
+          <root url="jar://D:/develop/Java/JMS/apache-activemq-5.13.2/lib/activemq-web-5.13.2.jar!/" />
+          <root url="jar://D:/develop/Java/JMS/apache-activemq-5.13.2/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar!/" />
+          <root url="jar://D:/develop/Java/JMS/apache-activemq-5.13.2/lib/geronimo-jms_1.1_spec-1.1.1.jar!/" />
+          <root url="jar://D:/develop/Java/JMS/apache-activemq-5.13.2/lib/geronimo-jta_1.0.1B_spec-1.0.1.jar!/" />
+          <root url="jar://D:/develop/Java/JMS/apache-activemq-5.13.2/lib/hawtbuf-1.11.jar!/" />
+          <root url="jar://D:/develop/Java/JMS/apache-activemq-5.13.2/lib/jcl-over-slf4j-1.7.13.jar!/" />
+          <root url="jar://D:/develop/Java/JMS/apache-activemq-5.13.2/lib/slf4j-api-1.7.13.jar!/" />
+          <root url="file://$MODULE_DIR$/.." />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../Java8_learning/src" />
+          <root url="file://$MODULE_DIR$/../cocurrent_learning/src/main/java" />
+          <root url="file://$MODULE_DIR$/../cocurrent_learning/src/test/java" />
+          <root url="file://$MODULE_DIR$/../learngradle/src/main/java" />
+          <root url="file://$MODULE_DIR$/../modjn/src/main/java" />
+          <root url="file://$MODULE_DIR$/../modjn/src/test/java" />
+          <root url="file://$MODULE_DIR$/../netty_learning/src/main/java" />
+          <root url="file://$MODULE_DIR$/../nio_learning/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

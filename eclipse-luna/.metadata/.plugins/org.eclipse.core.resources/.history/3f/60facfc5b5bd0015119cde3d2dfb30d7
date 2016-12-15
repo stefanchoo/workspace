@@ -1,0 +1,31 @@
+package com.mj.example.whiteboard.pluginregistry.impl;
+
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+import java.util.concurrent.ConcurrentHashMap;
+
+import org.osgi.framework.ServiceReference;
+
+import com.mj.example.whiteboard.pluginregistry.Plugin;
+import com.mj.example.whiteboard.pluginregistry.Registry;
+
+public class RegistryImpl implements Registry {
+    private final Map<ServiceReference, Plugin> plugins = new ConcurrentHashMap<>();
+    
+    
+    private void addPlugin() {
+        System.out.println("Added Plugin...");
+    }
+    
+    @Override
+    public List<Plugin> listPlugins() {
+        return null;
+    }
+
+    @Override
+    public Optional<Plugin> getPlugin(String name) {
+        return null;
+    }
+
+}

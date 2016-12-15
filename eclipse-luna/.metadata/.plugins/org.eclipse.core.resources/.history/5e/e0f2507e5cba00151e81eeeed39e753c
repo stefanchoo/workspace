@@ -1,0 +1,11 @@
+package com.mj.example.impl;
+
+import org.apache.felix.dm.annotation.api.Component;
+
+
+@Component
+public class ExampleComponent {
+
+	// TODO: class provided by template
+
+}

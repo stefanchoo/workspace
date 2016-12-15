@@ -1,0 +1,19 @@
+package com.mj.example.greet.impl;
+
+import com.mj.example.api.Greeting;
+
+public class GreetImpl implements Greeting {
+
+    @Override
+    public String sayHello(String name) {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public String anwserFrom(String name, String words) {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+}

@@ -1,0 +1,21 @@
+package com.mj.example.whiteboard.registryplugin.impl;
+
+import java.util.List;
+import java.util.Optional;
+
+import com.mj.example.whiteboard.registryplugin.Plugin;
+import com.mj.example.whiteboard.registryplugin.Registry;
+
+public class RegistryImpl implements Registry {
+    private volatile
+    @Override
+    public List<Plugin> listPlugins() {
+        return null;
+    }
+
+    @Override
+    public Optional<Plugin> getPlugin(String name) {
+        return null;
+    }
+
+}

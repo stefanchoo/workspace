@@ -1,0 +1,2 @@
+This is a file for buffer test!
+你好！

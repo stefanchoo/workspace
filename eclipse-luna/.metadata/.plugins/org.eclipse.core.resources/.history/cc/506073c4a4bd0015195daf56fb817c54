@@ -1,0 +1,7 @@
+package com.mj.example.dm.impl;
+
+import org.apache.felix.dm.DependencyActivatorBase;
+
+public class Activator extends DependencyActivatorBase {
+
+}

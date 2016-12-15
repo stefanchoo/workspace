@@ -1,0 +1,9 @@
+package com.mj.example.whiteboard.registryplugin;
+
+import java.util.List;
+import java.util.Optional;
+
+public interface Registry {
+    List<Plugin> listPlugins();
+    Optional<Plugin> getPlugin(String name);
+}

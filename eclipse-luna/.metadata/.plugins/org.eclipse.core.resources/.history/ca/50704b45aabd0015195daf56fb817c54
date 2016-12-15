@@ -1,0 +1,3 @@
+Bundle-Activator: com.mj.example.dm.tester.Activator
+Private-Package:  \
+	com.mj.example.dm.tester

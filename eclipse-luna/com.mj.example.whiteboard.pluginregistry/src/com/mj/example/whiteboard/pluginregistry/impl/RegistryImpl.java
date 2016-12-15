@@ -1,0 +1,52 @@
+package com.mj.example.whiteboard.pluginregistry.impl;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+import java.util.concurrent.ConcurrentHashMap;
+
+import org.apache.felix.dm.annotation.api.Component;
+import org.apache.felix.dm.annotation.api.ServiceDependency;
+import org.osgi.framework.ServiceReference;
+
+import com.mj.example.whiteboard.pluginregistry.Plugin;
+import com.mj.example.whiteboard.pluginregistry.Registry;
+
+/**
+ * 利用这个来做解耦
+ * 将所有的plugin的注册于注销都通过这个registry来实现
+ * 不需要在每个plugin中写做这些操作
+ * 
+ * @author stefan
+ *
+ */
+@Component
+public class RegistryImpl implements Registry {
+    private final Map<ServiceReference, Plugin> plugins = new ConcurrentHashMap<>();
+
+
+    @ServiceDependency(removed = "removePlugin")
+    public void addPlugin(ServiceReference ref, Plugin plugin) {
+        plugins.put(ref, plugin);
+        System.out.println(" Plugin Added ");
+    }
+
+    public void removePlugin(ServiceReference ref) {
+        plugins.remove(ref);
+        System.out.println(" Plugin removed ");
+    }
+
+    @Override
+    public List<Plugin> listPlugins() {
+        return new ArrayList<>(plugins.values());
+    }
+
+    @Override
+    public Optional<Plugin> getPlugin(String name) {
+        return plugins.values().stream()
+                .filter(p -> p.getName().equalsIgnoreCase(name))
+                .findAny();
+    }
+
+}

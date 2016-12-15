@@ -1,0 +1,4 @@
+#
+在本例中使用POJO来代替ByteBuf来接受消息
+使ChannelHandler变得更加可维护和可重用
+#

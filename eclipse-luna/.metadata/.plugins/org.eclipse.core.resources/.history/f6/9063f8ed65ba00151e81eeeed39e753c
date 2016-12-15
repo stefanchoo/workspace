@@ -1,0 +1,14 @@
+package com.mj.tutorial.todo.rest;
+
+import java.awt.List;
+import java.util.Arrays;
+
+
+@Path("todo")
+public class TodoResource {
+	@Get
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<String> list() {
+		return Arrays.asList("A", "B", "C");
+	}
+}

@@ -1,0 +1,5 @@
+package com.mj.example.whiteboard.helloplugin;
+
+public class HelloPlugin {
+
+}

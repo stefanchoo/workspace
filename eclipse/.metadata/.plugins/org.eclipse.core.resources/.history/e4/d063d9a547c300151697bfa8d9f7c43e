@@ -1,0 +1,47 @@
+package com.mj.io.hack;
+
+import org.junit.Test;
+
+/**
+ * 操作单个字符的character类使用小结
+ * 
+ * @author stefan
+ *
+ */
+
+public class CharacterTest {
+
+	@Test
+	public void testConstruction() {
+		Character c = new Character('a');
+		System.out.println("This is a char: " + c.toString()
+				+ "and it's class: " + c.getClass());
+
+		String str = Character.toString('b');
+		System.out.println(str);
+	}
+
+	@Test
+	public void testCompareTo() {
+		Character ch1 = new Character('a');
+		Character ch2 = new Character('A');
+		int x = ch1;
+		int y = ch2;
+		System.out.println("x=" + x + " " + "y=" + y);
+		// 比较是转化为ASII码进行的
+		int t = ch1.compareTo(ch2);
+		if (t == 0)
+			System.out.println(ch1 + "等于" + ch2);
+		else if (t < 0)
+			System.out.println(ch1 + "小于" + ch2);
+		else if (t > 0)
+			System.out.println(ch1 + "大于" + ch2);
+	}
+	
+	@Test
+	public void testUppercase(){
+		char ch1 = 'A';
+		char ch2 = 'a';
+		
+	}
+}

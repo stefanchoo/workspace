@@ -1,0 +1,7 @@
+package com.mj.example.whiteboard.registryplugin.impl;
+
+import com.mj.example.whiteboard.registryplugin.Registry;
+
+public class RegistryImpl implements Registry {
+
+}

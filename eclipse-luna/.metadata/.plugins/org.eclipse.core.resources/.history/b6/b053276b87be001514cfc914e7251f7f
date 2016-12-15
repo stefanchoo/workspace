@@ -1,0 +1,7 @@
+package com.mj.example.greet.impl;
+
+import com.mj.example.api.Greeting;
+
+public class GreetImpl implements Greeting {
+
+}

@@ -1,0 +1,6 @@
+Bundle-Version: 0.0.0.${tstamp}
+Private-Package:  \
+	com.mj.example.dm.activator
+Export-Package:  \
+	com.mj.example.dm
+Bundle-Activator: com.mj.example.dm.impl.Activator

@@ -1,0 +1,9 @@
+package com.mj.example.whiteboard.pluginregistry.impl;
+
+import org.apache.felix.dm.annotation.api.Component;
+
+@Component()
+public class Command {
+    
+    
+}

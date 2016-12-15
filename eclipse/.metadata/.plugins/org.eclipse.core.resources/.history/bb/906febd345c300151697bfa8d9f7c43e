@@ -1,0 +1,7 @@
+package com.mj.io.hack;
+
+public class CharacterTest {
+	public static void main(String[] args) {
+		Character c = new Character('a');
+	}
+}

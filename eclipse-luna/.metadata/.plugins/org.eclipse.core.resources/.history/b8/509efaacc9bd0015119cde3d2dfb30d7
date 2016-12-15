@@ -1,0 +1,6 @@
+-buildpath:  \
+	osgi.core,\
+	osgi.cmpn,\
+	com.mj.example.whiteboard.pluginregistry.registryplugin;version=latest
+-sub:  \
+	*.bnd

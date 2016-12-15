@@ -1,0 +1,8 @@
+package com.mj.example.command;
+
+import org.apache.felix.dm.annotation.api.Component;
+
+@Component
+public class Command {
+
+}

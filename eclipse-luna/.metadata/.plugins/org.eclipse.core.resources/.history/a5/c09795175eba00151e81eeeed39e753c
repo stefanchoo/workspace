@@ -1,0 +1,16 @@
+package com.mj.example.command;
+
+import org.apache.felix.dm.annotation.api.Component;
+import org.apache.felix.dm.annotation.api.ServiceDependency;
+
+import com.mj.example.api.Greeting;
+
+@Component
+public class Command {
+	@ServiceDependency
+	private Greeting greeting;
+	
+	public String greet(String name) {
+		
+	}
+}

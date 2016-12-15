@@ -1,0 +1,12 @@
+package com.mj.example.dm.impl;
+
+import com.mj.example.dm.Greeting;
+
+public class GreeterImpl implements Greeting {
+
+    @Override
+    public String greet(String name) {
+        return "Hello, " + name + ", I am dependency-manager.";
+    }
+
+}

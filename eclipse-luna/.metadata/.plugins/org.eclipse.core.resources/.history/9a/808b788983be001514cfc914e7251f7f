@@ -1,0 +1,7 @@
+package com.mj.example.hello.impl;
+
+import com.mj.example.api.Greeting;
+
+public class HelloImpl implements Greeting {
+
+}

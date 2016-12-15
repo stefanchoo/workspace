@@ -1,0 +1,10 @@
+package com.mj.example.dm.activator;
+
+import org.apache.felix.dm.annotation.api.Component;
+
+
+@Component
+public class ExampleComponent {
+
+
+}

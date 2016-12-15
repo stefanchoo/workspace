@@ -1,0 +1,7 @@
+package com.mj.example.whiteboard.pluginregistry.impl;
+
+@Component()
+public class Command {
+    
+    
+}

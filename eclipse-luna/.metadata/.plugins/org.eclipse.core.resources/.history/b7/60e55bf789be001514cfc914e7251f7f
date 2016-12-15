@@ -1,0 +1,17 @@
+package com.mj.example.greet.impl;
+
+import com.mj.example.api.Greeting;
+
+public class GreetImpl implements Greeting {
+
+    @Override
+    public String sayHello(String name) {
+        return "Hello, I am the " + this.getClass().getName();
+    }
+
+    @Override
+    public String anwserFrom(String name, String words) {
+        return null;
+    }
+
+}

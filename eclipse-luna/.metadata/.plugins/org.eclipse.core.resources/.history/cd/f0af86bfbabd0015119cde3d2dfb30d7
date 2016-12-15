@@ -1,0 +1,14 @@
+package com.mj.example.whiteboard.pluginregistry.impl;
+
+import org.apache.felix.dm.annotation.api.Component;
+import org.apache.felix.dm.annotation.api.Property;
+import org.apache.felix.service.command.CommandProcessor;
+
+@Component(properties = {
+             @Property(name = CommandProcessor.COMMAND_SCOPE, value = "example"),
+             @Property(name = CommandProcessor.COMMAND_FUNCTION, value = {""})
+}, provides = Object.class)
+public class Command {
+    
+    
+}

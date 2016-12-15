@@ -1,0 +1,10 @@
+-buildpath:  \
+	osgi.core,\
+	osgi.cmpn,\
+	org.apache.servicemix.bundles.junit,\
+	org.apache.felix.dependencymanager
+Bundle-Version: 0.0.0.${tstamp}
+Private-Package:  \
+	com.mj.example.dm.activator
+Service-Component:  \
+	*

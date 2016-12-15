@@ -1,0 +1,5 @@
+package com.mj.example.api;
+
+public interface Greeting {
+
+}

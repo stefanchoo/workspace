@@ -1,0 +1,5 @@
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>upd\: \u7B80\u5355\u66F4\u65B0</message>\r\n<message>fix\uFF1A\u4FEE\u590D\u6570\u636E\u6EA2\u51FA\u7684\u9519\u8BEF</message>\r\n<message>upd\: \u6362\u56DE\u4E00\u4E2A\u7F51\u5173\u7684\u65B9\u6848\u8FDB\u884C\u6D4B\u8BD5</message>\r\n<message>fix\: commit before pull</message>\r\n<message>upd\:add equals method in modbus core</message>\r\n</messages>
+eclipse.preferences.version=1
+org.eclipse.egit.ui.githistorypage.showallfilter=SHOWALLPROJECT
+resourcehistory_graph_split=869,114
+resourcehistory_rev_split=700,300

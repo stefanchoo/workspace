@@ -1,0 +1,12 @@
+-buildpath:  \
+	osgi.core,\
+	osgi.cmpn,\
+	org.apache.servicemix.bundles.junit,\
+	org.apache.felix.dependencymanager.annotation,\
+	com.mj.example.api;version=latest,\
+	org.apache.felix.gogo.command
+Bundle-Version: 0.0.0.${tstamp}
+Private-Package:  \
+	com.mj.example.impl
+-sub:  \
+	*.bnd

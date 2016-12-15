@@ -1,0 +1,8 @@
+package com.mj.example.dm.activator;
+
+
+@Component
+public class ExampleComponent {
+
+
+}

@@ -1,0 +1,8 @@
+Bundle-Version: 0.0.0.${tstamp}
+-buildpath:  \
+	org.amdatu.web.rest.jaxrs,\
+	../cnf/plugins/org.apache.felix.dependencymanager.annotation-3.2.0.jar;version=file,\
+	osgi.core;version=6.0,\
+	org.apache.felix.dependencymanager;version=4.1
+Private-Package:  \
+	com.mj.tutorial.todo.rest

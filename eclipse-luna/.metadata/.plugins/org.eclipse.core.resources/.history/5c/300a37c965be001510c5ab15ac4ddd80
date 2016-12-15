@@ -1,0 +1,43 @@
+package com.mj.example.command;
+
+import com.mj.example.api.Greeting;
+
+import org.apache.felix.dm.annotation.api.Component;
+import org.apache.felix.dm.annotation.api.Property;
+import org.apache.felix.dm.annotation.api.ServiceDependency;
+import org.apache.felix.service.command.CommandProcessor;
+import org.osgi.framework.BundleActivator;
+import org.osgi.framework.BundleContext;
+
+@Component(properties = {
+                         @Property(name = CommandProcessor.COMMAND_SCOPE, value = "example"),
+                         @Property(name = CommandProcessor.COMMAND_FUNCTION, value = {"greet", "answer"})
+                         }, 
+           provides = Object.class)
+public class Command implements BundleActivator {
+
+    @ServiceDependency
+    private Greeting greeting;
+
+    public String greet(String name) {
+        return greeting.sayHello(name);
+    }
+
+    public String answer(String name, String words) {
+        return greeting.anwserFrom(name, words);
+    }
+
+    @Override
+    public void start(BundleContext context) throws Exception {
+        // TODO Auto-generated method stub
+        
+    }
+
+    @Override
+    public void stop(BundleContext context) throws Exception {
+        // TODO Auto-generated method stub
+        
+    }
+    
+   
+}

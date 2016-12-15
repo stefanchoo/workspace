@@ -1,0 +1,8 @@
+-buildpath:  \
+	osgi.core,\
+	osgi.cmpn,\
+	org.apache.felix.dependencymanager.annotation,\
+	org.apache.felix.gogo.command,\
+	org.apache.felix.gogo.runtime
+-sub:  \
+	*.bnd

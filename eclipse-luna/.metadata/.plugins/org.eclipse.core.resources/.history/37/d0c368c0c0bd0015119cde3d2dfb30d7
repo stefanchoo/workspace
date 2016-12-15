@@ -1,0 +1,7 @@
+-buildpath:  \
+	osgi.core,\
+	osgi.cmpn,\
+	com.mj.example.whiteboard.pluginregistry.registryplugin;version=latest
+Bundle-Version: 0.0.0.${tstamp}
+Private-Package:  \
+	com.mj.example.whiteboard.weatherplugin

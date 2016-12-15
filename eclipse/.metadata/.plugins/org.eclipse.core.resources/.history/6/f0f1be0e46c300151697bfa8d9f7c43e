@@ -1,0 +1,9 @@
+package com.mj.io.hack;
+
+public class CharacterTest {
+	public static void main(String[] args) {
+		Character c = new Character('a');
+		System.out.println("This is a char: " + c.toString()
+				+ "and it's class is " + c.getClass());
+	}
+}
