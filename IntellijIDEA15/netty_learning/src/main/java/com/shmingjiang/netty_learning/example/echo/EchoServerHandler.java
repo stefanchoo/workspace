@@ -11,6 +11,6 @@ public class EchoServerHandler extends ChannelInboundHandlerAdapter {
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
         ctx.write(msg);                          // 将消息写入到缓存区
         ctx.flush();                             // 将缓存区的数据输出
-        // ctx.writeAndFlush(msg);
+        ctx.writeAndFlush(msg);
     }
 }
