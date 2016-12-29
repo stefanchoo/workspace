@@ -1,6 +1,8 @@
 package com.africa.study.offer;
 
 /**
+ * 两个链表的第一个公共结点
+ *
  * @author zhuhusheng
  * @date 2016/12/28
  */
@@ -21,6 +23,7 @@ public class Item37 {
 
     /**
      * 查找第一个公共的结点
+     *
      * @param head1
      * @param head2
      * @return
